@@ -31,6 +31,14 @@ header ul li {
   margin-right: 18px;
   flex-wrap: wrap;
 }
+@media (max-width: 767px) {
+  header ul li {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
 header ul li a {
   color: #868686;
 }
